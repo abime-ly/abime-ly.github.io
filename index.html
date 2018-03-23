@@ -214,8 +214,23 @@
 
 
   
-    <article id="post-newBlog" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-markdown" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/22/markdown/">Markdown的使用语法测试</a>
+    </h1>
+  
+
+        
+        <a href="/2018/03/22/markdown/" class="archive-article-date">
+  	<time datetime="2018-03-22T12:57:00.088Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-22</time>
+</a>
+        
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -269,6 +284,56 @@
 <h5 id="参数式"><a href="#参数式" class="headerlink" title="参数式"></a>参数式</h5><p>《<a href="www.taobao.com" title="购买">朝花夕拾</a>》是<a href="www.baidu.com" title="百度百科">鲁迅</a>的一部散文集</p>
 <h3 id="图片（也有参数式和行内式，用法与链接一致，只是方括号-前要加感叹号！）"><a href="#图片（也有参数式和行内式，用法与链接一致，只是方括号-前要加感叹号！）" class="headerlink" title="图片（也有参数式和行内式，用法与链接一致，只是方括号[]前要加感叹号！）"></a>图片（<strong>也有参数式和行内式，用法与链接一致，只是方括号[]前要加感叹号！</strong>）</h3><p><img src="https://www.cnblogs.com/images/logosmall.gif" alt="我是图片"></p>
 <p>参数式图片，这里是<img src="https://www.cnblogs.com/images/logosmall.gif" alt="图片"></p>
+<h3 id="代码框"><a href="#代码框" class="headerlink" title="代码框"></a>代码框</h3><h5 id="第一种-单行用’’"><a href="#第一种-单行用’’" class="headerlink" title="第一种 单行用’’"></a>第一种 单行用’’</h5><p><code>&lt;p&gt;&lt;a href=&quot;/home&quot; title=&quot;说明&quot;&gt;门前大桥下&lt;/a&gt;&lt;/p&gt;</code></p>
+<p>use the <code>printf()</code> function</p>
+<h5 id="第二种-多行用3个单引号’"><a href="#第二种-多行用3个单引号’" class="headerlink" title="第二种 多行用3个单引号’"></a>第二种 多行用3个单引号’</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;p&gt;门前大桥下&lt;/p&gt;</span><br><span class="line">&lt;p&gt;游着一群鸭&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="表格-分割线后面的冒号表示对齐方向，默认左对齐"><a href="#表格-分割线后面的冒号表示对齐方向，默认左对齐" class="headerlink" title="表格(分割线后面的冒号表示对齐方向，默认左对齐)"></a>表格(<strong>分割线后面的冒号表示对齐方向，默认左对齐</strong>)</h3><table>
+<thead>
+<tr>
+<th style="text-align:center">name</th>
+<th>age</th>
+<th style="text-align:right">sex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">tony</td>
+<td>12</td>
+<td style="text-align:right">男</td>
+</tr>
+<tr>
+<td style="text-align:center">lucy</td>
+<td>20</td>
+<td style="text-align:right">女</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">表头1</th>
+<th style="text-align:left">表头2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">content cell</td>
+<td style="text-align:left">content cell</td>
+</tr>
+<tr>
+<td style="text-align:center">content cell</td>
+<td style="text-align:left">content cell</td>
+</tr>
+</tbody>
+</table>
+<h3 id="强调（一个-号或一个下划线-包起来表示倾斜，两个包起来则是加粗）"><a href="#强调（一个-号或一个下划线-包起来表示倾斜，两个包起来则是加粗）" class="headerlink" title="强调（一个*号或一个下划线_包起来表示倾斜，两个包起来则是加粗）"></a>强调（<strong>一个*号或一个下划线_包起来表示倾斜，两个包起来则是加粗</strong>）</h3><p><em>字体倾斜</em>  <em>字体倾斜</em><br><strong>字体加粗</strong>  <strong>字体加粗</strong></p>
+<h3 id="转义（符号前面加上-跟js中转义是一样的）"><a href="#转义（符号前面加上-跟js中转义是一样的）" class="headerlink" title="转义（符号前面加上\,跟js中转义是一样的）"></a>转义（<strong>符号前面加上\,跟js中转义是一样的</strong>）</h3><ul>
+<li>\</li>
+<li>!</li>
+<li>.</li>
+<li>+</li>
+</ul>
+<h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><p><del>我被删除了</del></p>
 
       
 
@@ -281,7 +346,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2018/03/22/newBlog/">展开全文 >></a>
+          <a class="article-more-a" href="/2018/03/22/markdown/">展开全文 >></a>
         </p>
       
 
